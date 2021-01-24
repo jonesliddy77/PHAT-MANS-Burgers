@@ -1,19 +1,29 @@
 {
-  "name": "02-Homework",
+  "name": "PHAT-MANS-Burgers",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "description": "## Description * Eat all the Burgers you want.",
+  "main": "server.js",
   "dependencies": {
     "express": "^4.17.1",
     "express-handlebars": "^5.2.0",
     "mysql": "^2.18.1",
-    "mysql2": "^2.2.5",
-    "sequelize": "^6.3.5"
-  }
+    "sequelize": "^6.3.5",
+    "mysql2": "^2.2.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonesliddy77/PHAT-MANS-Burgers.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonesliddy77/PHAT-MANS-Burgers/issues"
+  },
+  "homepage": "https://github.com/jonesliddy77/PHAT-MANS-Burgers#readme"
 }
