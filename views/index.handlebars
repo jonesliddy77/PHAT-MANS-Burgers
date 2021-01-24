@@ -1,0 +1,56 @@
+<div class="resturantBackground">
+    <div class="resturantNameContainer">
+        <div class="resturantName">PHAT MANS BURGERS<i class="far fa-hamburger"></i></div>
+    </div>
+</div>
+<div class="burger-container">
+    <div class="all-burger-container">
+        <h2>Burgers</h2>
+        <ul>
+            {{#each burgers}}
+            {{#unless this.devoured}}
+            <li>
+                {{this.burger_name}}
+                <form class="eat_burger" id={{this.id}}>
+                    <button type="submit">Eat</button>
+                </form>
+            </li>
+            {{/unless}}
+            {{/each}}
+        </ul>
+    </div>
+    <div class="eaten-burgers">
+        <h2>Eaten Burgers</h2>
+        <ul>
+            {{#each burgers}}
+            {{#if this.devoured}}
+            <li>
+                {{this.burger_name}}
+                <form class="eat_burger" id={{this.id}}>
+                    <button id="throwup" type="submit">Throw it Up</button>
+                </form>
+            </li>
+            {{/if}}
+            {{/each}}
+        </ul>
+    </div>
+</div>
+<div class="add-background">
+<div class="add">
+<form class="addBurger-container">
+    <div>
+        <h3>Add a Burger to the Menu</h3>
+    </div>
+    <div class="addBurger">
+        <div>
+            <input id="burger_name" type="text" />
+        </div>
+        <div>
+            <button id="submitAll" type="submit" class="add-btn">
+                Add New Burger
+            </button>
+        </div>
+    </div>
+</form>
+</div>
+</div>

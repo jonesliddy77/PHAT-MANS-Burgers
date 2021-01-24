@@ -1,0 +1,281 @@
+@import url(//db.onlinewebfonts.com/c/6589ed5929cebb60971ece7da8d216bf?family=FastFoodW01-Regular);
+@font-face {
+    font-family: 'FastFoodW01-Regular';
+    src: url('//db.onlinewebfonts.com/t/6589ed5929cebb60971ece7da8d216bf.eot');
+    src: url('//db.onlinewebfonts.com/t/6589ed5929cebb60971ece7da8d216bf.eot?#iefix')
+            format('embedded-opentype'),
+        url('//db.onlinewebfonts.com/t/6589ed5929cebb60971ece7da8d216bf.woff2')
+            format('woff2'),
+        url('//db.onlinewebfonts.com/t/6589ed5929cebb60971ece7da8d216bf.woff')
+            format('woff'),
+        url('//db.onlinewebfonts.com/t/6589ed5929cebb60971ece7da8d216bf.ttf')
+            format('truetype'),
+        url('//db.onlinewebfonts.com/t/6589ed5929cebb60971ece7da8d216bf.svg#FastFoodW01-Regular')
+            format('svg');
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol,
+ul {
+    list-style: none;
+}
+blockquote,
+q {
+    quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+}
+/* Restraunt header */
+.resturantBackground {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+}
+.resturantNameContainer {
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 85vw;
+    border-radius: 15px;
+}
+.resturantName {
+    background: rgb(253, 110, 27);
+    text-align: center;
+    font-size: 4rem;
+    color: white;
+    font-family: 'FastFoodW01-Regular';
+    height: 25vh;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.fa-hamburger {
+    padding-left: 20px;
+}
+/* Both Containers */
+.burger-container {
+    display: flex;
+    justify-content: center;
+}
+.burger-container h2 {
+    text-align: center;
+    padding-top: 15px;
+    height: auto;
+    border-bottom: solid white 5px;
+}
+/* All Burgers Container */
+.all-burger-container {
+    background: red;
+    color: white;
+    font-size: 2rem;
+    font-family: 'FastFoodW01-Regular';
+    width: 42vw;
+    border-radius: 15px;
+    margin-right: 8px;
+    min-height: 45vh;
+}
+/* Eaten Burgers */
+.eaten-burgers {
+    background: rgb(253, 110, 27);
+    color: white;
+    font-size: 2rem;
+    font-family: 'FastFoodW01-Regular';
+    width: 42vw;
+    border-radius: 15px;
+    margin-left: 8px;
+    min-height: 45vh;
+}
+#throwup{
+    width: 100px;
+    background: rgb(253, 110, 27);
+}
+#throwup:hover{
+    color: red;
+    background-color: white;
+}
+/* Burgers inside containers */
+ul{
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+/* Buttons */
+button{
+    border-radius: 15px;
+    margin-bottom: 10px;
+    width: 50px;
+box-shadow: 3px 5px 5px white;
+    background: red;
+    cursor: pointer;
+    color: white;
+        border-color:rgb(255, 255, 255);
+}
+button:hover{
+    background-color: white;
+    color: red;
+}
+/* add Bugers */
+.add-background{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.add{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(253, 110, 27) ;
+    margin-top: 10px;
+    width: 85vw;
+    height: 20vh;
+    border-radius: 15px;
+
+
+}
+.addBurger-container{
+    background: red;
+    color: white;
+    font-size: 2rem;
+    font-family: 'FastFoodW01-Regular';
+    width: 80vw;
+    border-radius: 15px;
+    height: 15vh;
+    text-align: center;
+    padding-top: 20px;
+}
+h3{
+    text-align: center;
+    height: auto;
+    border-bottom: solid white 5px;
+    padding-bottom: 5px;
+}
+.add-btn{
+    width: 300px;
+}
+#burger_name{
+    width: 300px;
+    font-family: 'FastFoodW01-Regular';
+    color: rgb(253, 110, 27) ;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    border: none;
+        border-radius: 15px;
+
+}
