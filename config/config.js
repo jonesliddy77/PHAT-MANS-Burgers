@@ -1,6 +1,13 @@
 module.exports = {
-    HOST: 'us-cdbr-iron-east-02.cleardb.net',
-    USER: 'b7e2437887xxxa',
-    PASSWORD: '0200xxx6',
-    DB: 'heroku_7643ec736354xxx',
+    development: {
+        username: process.env.DB_USER,
+        password: process.env.DB_PASS,
+        database: 'passport_demo',
+        host: process.env.DB_HOST,
+        dialect: 'mysql',
+    },
+    production: {
+        use_env_variable: 'JAWSDB_URL',
+        dialect: 'mysql',
+    },
 };
