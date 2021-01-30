@@ -1,4 +1,3 @@
-require('dotenv').config();
 var express = require('express');
 var exphbs = require('express-handlebars'); 
 var routes = require('./controllers/burgers_controller.js');
